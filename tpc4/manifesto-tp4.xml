@@ -36,10 +36,8 @@
     <de>Deliverables:</de>
     <resultados>
         
-        <resultado>http://rodrigopereira.1apps.com/tpc/manifesto-tp3.xml</resultado>
-        <resultado>http://rodrigopereira.1apps.com/tpc/manifesto-tp3.html </resultado>
-        <resultado>http://rodrigopereira.1apps.com/tpc/nt.xsl </resultado>
-        <resultado>http://rodrigopereira.1apps.com/tpc/website.zip </resultado>
+        <resultado>https://github.com/pereira18/daw/tree/master/tpc4/manifesto-tp4.xml</resultado>
+        <resultado>https://github.com/pereira18/daw/tree/master/tpc4/manifesto-tp4.html </resultado>
     </resultados>
     <data>25/09/2018</data>    
 </manifesto>
