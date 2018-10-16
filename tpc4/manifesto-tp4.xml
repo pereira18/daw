@@ -2,10 +2,10 @@
 <manifesto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <tit>Project Record</tit>
     <meta>
-        <subtitulo2>KEY NAME:</subtitulo2><identificador> TPC3</identificador>
-        <subtitulo2>BEGIN DATE:</subtitulo2><dinicio>02/10/2018</dinicio>
-        <subtitulo2>TITLE:</subtitulo2><titulo>Criação de ficeiros xml,xsl e html</titulo>
-        <subtitulo2>END DATE:</subtitulo2> <dfim>09/10/2018</dfim>
+        <subtitulo2>KEY NAME:</subtitulo2><identificador> TPC4</identificador>
+        <subtitulo2>BEGIN DATE:</subtitulo2><dinicio>09/10/2018</dinicio>
+        <subtitulo2>TITLE:</subtitulo2><titulo>Criação de servidor node js</titulo>
+        <subtitulo2>END DATE:</subtitulo2> <dfim>16/10/2018</dfim>
         <subtitulo2>SUBTITLE:</subtitulo2><subtitulo>Trabalho inserido na cadeira Desenvolvimento de Aplicações Web</subtitulo>
         <supervisor tipo="pessoa">
             <subtitulo2>SUPERVISOR:</subtitulo2><nome>Jose Carlos Ramalho</nome>
@@ -26,11 +26,12 @@
     <resumo>
         <res>ABSTRACT:</res>
         <para id="p1">
-            Realização do Terceiro TPC da cadeira Desenvolvimento de Aplicações Web com o objetivo de Criação de manifecto-TP3.xml, manifesto-TP3.html e religion.xsl,utilizando todos 
+            Realização do Quarto TPC da cadeira Desenvolvimento de Aplicações Web com o objetivo de Criação de servidor node js utilizando todos 
             os conhecimentos adquiridos durante as aulas práticas e teóricas.
         </para>
         <para>
-            Para a criação de uma parte do ficheiro religions.xsl recorri ao uso de um foreach, nomeadamente na parte onde era necessário apresentar todos os capitulos de cata livro.  
+            Para a criação desse servidor foi criado no ficheiro uma condição if para verificar se o pedido era um pedido de uma página html ou 
+            um pedido do ficheiro index.
         </para>
     </resumo>
     <de>Deliverables:</de>
@@ -39,5 +40,5 @@
         <resultado>https://github.com/pereira18/daw/tree/master/tpc4/manifesto-tp4.xml</resultado>
         <resultado>https://github.com/pereira18/daw/tree/master/tpc4/manifesto-tp4.html </resultado>
     </resultados>
-    <data>25/09/2018</data>    
+    <data>16/10/2018</data>    
 </manifesto>
