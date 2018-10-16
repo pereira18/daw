@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <tit>Project Record</tit>
+    <meta>
+        <subtitulo2>KEY NAME:</subtitulo2><identificador> TPC3</identificador>
+        <subtitulo2>BEGIN DATE:</subtitulo2><dinicio>02/10/2018</dinicio>
+        <subtitulo2>TITLE:</subtitulo2><titulo>Criação de ficeiros xml,xsl e html</titulo>
+        <subtitulo2>END DATE:</subtitulo2> <dfim>09/10/2018</dfim>
+        <subtitulo2>SUBTITLE:</subtitulo2><subtitulo>Trabalho inserido na cadeira Desenvolvimento de Aplicações Web</subtitulo>
+        <supervisor tipo="pessoa">
+            <subtitulo2>SUPERVISOR:</subtitulo2><nome>Jose Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <tea>WorkTeam:</tea>
+        <membro id ="m1" tipo="pessoa">
+            <subtitulo2>Nome:</subtitulo2><nome>Rodrigo Teixeira Pereira</nome>
+            <subtitulo2>Número:</subtitulo2><identificador>pg38424</identificador>
+            <email>rodrigo58@live.com.pt</email>
+            <website>http://rodrigopereira.1apps.com/</website>
+            <foto>http://rodrigopereira.1apps.com/images/profilepic.jpg</foto>
+        </membro>
+    </equipa>
+    <resumo>
+        <res>ABSTRACT:</res>
+        <para id="p1">
+            Realização do Terceiro TPC da cadeira Desenvolvimento de Aplicações Web com o objetivo de Criação de manifecto-TP3.xml, manifesto-TP3.html e religion.xsl,utilizando todos 
+            os conhecimentos adquiridos durante as aulas práticas e teóricas.
+        </para>
+        <para>
+            Para a criação de uma parte do ficheiro religions.xsl recorri ao uso de um foreach, nomeadamente na parte onde era necessário apresentar todos os capitulos de cata livro.  
+        </para>
+    </resumo>
+    <de>Deliverables:</de>
+    <resultados>
+        
+        <resultado>http://rodrigopereira.1apps.com/tpc/manifesto-tp3.xml</resultado>
+        <resultado>http://rodrigopereira.1apps.com/tpc/manifesto-tp3.html </resultado>
+        <resultado>http://rodrigopereira.1apps.com/tpc/nt.xsl </resultado>
+        <resultado>http://rodrigopereira.1apps.com/tpc/website.zip </resultado>
+    </resultados>
+    <data>25/09/2018</data>    
+</manifesto>
