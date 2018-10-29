@@ -1,0 +1,22 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-green
+                h1 Obras Musicais
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Tipo
+                        th Obras 
+                    each tipo in obras
+                        tr
+                            td= tipo[0].tipo
+                            td
+                                ul
+                                    each ob in tipo
+                                        li
+                                            a(href='http://localhost:4000/obr/' + ob._id)= ob.titulo
+            footer.w3-container.w3-light-green
+                address Gerado por PubsApp 

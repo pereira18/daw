@@ -1,0 +1,16 @@
+{
+  "name": "tpc5",
+  "version": "1.0.0",
+  "description": "tpc5",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Rodrigo Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "group-array": "^0.3.3",
+    "pug": "^2.0.3",
+    "walk": "^2.3.14"
+  }
+}

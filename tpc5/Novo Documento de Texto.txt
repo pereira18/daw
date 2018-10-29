@@ -1,0 +1,11 @@
+criar ficheiro json com lista de ficheiros
+
+ficheiros json podem ter erros
+
+instalar mongo DB
+	correr-> mongod --dbpath pasta para guardar base de dados &
+	mongo
+	>show databases
+	>quit
+
+https://stackoverflow.com/questions/38575721/grouping-json-by-values

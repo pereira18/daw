@@ -1,0 +1,36 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-green
+                h1= ob.titulo
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                        th Id
+                        td= ob._id
+                    tr
+                        th Titulo
+                        td= ob.titulo
+                    tr
+                        th Compositor
+                        td= ob.compositor
+                    if ob.arranjo
+                        tr
+                            th Arranjo
+                            td= ob.arranjo
+                    tr
+                        th Instrumentos
+                        td
+                            ul
+                                each ins in ob.instrumentos
+                                    li
+                                        a(href= "/"+ins.partitura.path)= ins.nome 
+                                        if ins.partitura.voz
+                                            b   Voz
+                                            b=ins.partitura.voz
+                                        
+            footer.w3-container.w3-light-green
+                address Gerado por PubsApp 
+                a(href='http://localhost:4000') Voltar à página principal
