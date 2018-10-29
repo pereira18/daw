@@ -1,0 +1,15 @@
+{
+  "name": "tpc5",
+  "version": "1.0.0",
+  "description": "Criação de uma lista de tarefas",
+  "main": "index.js",
+  "scripts": {
+    "lt1": "node server-tarefa3.js"
+  },
+  "author": "Rodrigo",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3"
+  }
+}
