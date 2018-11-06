@@ -1,0 +1,23 @@
+{
+  "name": "aula7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-ficheiro-1.js",
+  "scripts": {
+    "test": "node server-ficheiro-1.js",
+    "test2": "node server-ficheiro-2.js",
+    "express": "node server-ficheiro-express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "jsonfile": "^5.0.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
