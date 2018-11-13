@@ -1,0 +1,11 @@
+tr
+    th Nome
+    th Descrição
+    th Data
+each fi in lista
+    tr
+        td
+            a(href='images/' + fi.nome target="_blank")= fi.nome
+            console.log(fi)
+        td= fi.descricao
+        td= fi.data
