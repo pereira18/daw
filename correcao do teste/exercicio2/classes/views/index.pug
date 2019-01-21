@@ -1,0 +1,23 @@
+extends layout
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal
+        h1 CLAV
+        hr
+        p A CLAV é uma plataforma em desenvolvimento no DI/UM em parceria e sob encomenda da Direção Geral do Livro, Arquivos e Bibliotecas (DGLAB) que visa a classificação e a avaliação de toda a documentação circulante na administração pública portuguesa.
+      .w3-container
+        table.w3-table-all
+          th Código
+          th Titulo
+          th id
+          each p in lista
+            tr
+                td
+                  a(href='//localhost:4010/processo1/'+ p.codigo)=p.codigo
+                td= p.titulo
+                td 
+                  a(href=p.id)= "classe" + p.codigo
+      footer.w3-container.w3-teal
+        address Gerado por Rodrigo Pereira
+    
