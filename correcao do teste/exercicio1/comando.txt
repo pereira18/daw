@@ -1,2 +1,2 @@
 Para importar os dados para a o mongo basta usar o comando
-    mongoimport --jsonArray --db compositores --collection compsositore --file C:\Users\Rodrigo\Desktop\Mestrado\1semestre\desenvolvimento_de_aplicações_web\teste\exercicio1\json
+    mongoimport --jsonArray --db comps --collection comps --file C:\Users\Rodrigo\Desktop\Mestrado\1semestre\desenvolvimento_de_aplicações_web\teste\exercicio1\json

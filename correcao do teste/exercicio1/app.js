@@ -7,10 +7,11 @@ var logger = require('morgan');
 var mongoose = require('mongoose')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var compositoresAPIRouter = require('./routes/api/compositores');
 var app = express();
 
 //Base de Dados
-mongoose.connect('mongodb://127.0.0.1:27017/compositores', {useNewUrlParser:true})//
+mongoose.connect('mongodb://127.0.0.1:27017/comps', {useNewUrlParser:true})//
   .then(()=> console.log('Mongo ready: ' + mongoose.connection.readyState))//
   .catch(()=> console.log('Erro de conexão.'))//
 
